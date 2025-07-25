@@ -1,0 +1,33 @@
+.container-info-panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.info-items {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.judul-items {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-items {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.info-items p {
+  font-size: 14px;
+}
+
+.info-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  padding: 10px;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,47 @@
+.container-showcase-damn {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.showcase-damn-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.showcase-damn-items {
+  width: 500px;
+}
+
+.showcase-damn-items img {
+  width: 100%;
+  padding: 10px;
+}
+
+.showcase-damn-items p {
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+.showcase-damn-items h3 {
+  margin-top: 10px;
+}
+
+.showcase-damn-items button {
+  width: 50%;
+  margin-top: 20px;
+  padding: 10px;
+  border-style: none;
+  background-color: #fe012b;
+  color: #ffa1a1;
+}
+
+.showcase-damn-items button:hover {
+  background-color: rgb(151, 0, 0);
+  cursor: pointer;
+}

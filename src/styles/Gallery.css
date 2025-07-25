@@ -1,0 +1,23 @@
+.container-damn-gallery {
+  background-color: #e9e9e9;
+  margin: 20px auto;
+}
+.damn-gallery-flex {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+.damn-gallery-items {
+  width: 350px;
+}
+.damn-gallery-items img {
+  width: 100%;
+  margin-top: 30px;
+}
+.damn-gallery-items img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
