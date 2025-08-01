@@ -1,21 +1,12 @@
 .container-hero {
-  background-image: url(/images/cover-hero.jpg);
+  background-image: url(../images/header_cover_hero.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  /* background-attachment: fixed; */
 }
-
 h1 {
-  color: #fe012b;
-}
-
-.text-cover {
-  text-align: center;
-  font-size: 20px;
-  color: white;
-  margin: 40px 40px;
+  color: #ff0073;
 }

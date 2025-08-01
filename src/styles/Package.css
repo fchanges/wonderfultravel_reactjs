@@ -1,58 +1,58 @@
 .container-pack-travel {
-  background-color: #e9e9e9;
+  width: 100%;
+  background-color: #aeacb548;
   margin: 20px auto;
 }
 
 .pack-travel-flex {
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 50px;
 }
-
 .header {
   margin-top: 40px;
   padding-top: 10px;
 }
-
-.header h2 {
+.container-pack-travel h2 {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
   padding-top: 10px;
-  padding-bottom: 20px;
+  color: rgb(91, 91, 91);
 }
-
-.header hr {
-  width: 30%;
+.container-pack-travel hr {
+  width: 20%;
   margin: auto;
-  border: solid 2px #fe012b;
+  border: solid 1px rgb(91, 91, 91);
   margin-bottom: 20px;
 }
-
 .pack-travel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 400px;
   padding: 25px;
-  margin-top: 20px;
+  margin-top: 30px;
   box-shadow: 0px 0px 20px -10px;
+  border-radius: 10px;
+  background-color: white;
 }
-
 .pack-travel-card img {
   width: 100%;
 }
-
 .pack-travel-card img:hover {
-  transform: scale(1.1);
-  transition: 1s;
+  cursor: pointer;
 }
-
 .pack-travel-card h3 {
   font-size: 20px;
   margin-top: 10px;
 }
-
+.pack-travel-card button {
+  border-radius: 30px;
+}
 .pack-travel-card .bttn-indo {
   width: 200px;
   color: #ffa1a1;
@@ -61,12 +61,10 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-indo:hover {
   background-color: rgb(151, 0, 0);
   cursor: pointer;
 }
-
 .pack-travel-card .bttn-jpn {
   width: 200px;
   color: #fda1cf;
@@ -75,12 +73,10 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-jpn:hover {
   background-color: #94004a;
   cursor: pointer;
 }
-
 .pack-travel-card .bttn-india {
   width: 200px;
   color: #ffc6a7;
@@ -89,12 +85,10 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-india:hover {
   background-color: #a83b00;
   cursor: pointer;
 }
-
 .pack-travel-card .bttn-chna {
   width: 200px;
   color: #eaff00;
@@ -103,12 +97,10 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-chna:hover {
   background-color: #3e4400;
   cursor: pointer;
 }
-
 .pack-travel-card .bttn-ausi {
   width: 200px;
   color: #8afe01;
@@ -117,12 +109,10 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-ausi:hover {
   background-color: #396901;
   cursor: pointer;
 }
-
 .pack-travel-card .bttn-korea {
   width: 200px;
   color: #10ccfb;
@@ -131,9 +121,7 @@
   padding: 10px;
   margin-top: 10px;
 }
-
 .pack-travel-card .bttn-korea:hover {
   background-color: #005368;
   cursor: pointer;
-
 }

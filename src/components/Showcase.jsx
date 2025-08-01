@@ -7,25 +7,21 @@ function showcase() {
       <div className="showcase-damn-flex">
         <div className="showcase-damn-items">
           <img
-            src="images/showcase_damn_i_love_indonesia.png"
+            src="images/showcase_i_love_indonesia.png"
             alt="showcase - DAMN i love indonesia"
           />
         </div>
         <div className="showcase-damn-items">
-          <h3>DAMN!! I Love INDONESIA</h3>
+          <h2>I Love INDONESIA</h2>
+          <h4>Sejarah & Adat Papua</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
-            facilis veritatis molestias rerum recusandae provident possimus
-            eveniet perspiciatis officia voluptates odit deserunt, error tempora
-            numquam nihil, illo voluptatem expedita velit accusantium enim
-            consequatur quisquam! Dignissimos aut odit explicabo minima! Porro
-            sapiente tenetur, velit quos asperiores suscipit quod ipsa qui
-            quaerat rerum.
+            Papua adalah provinsi yang terletak di pesisir utara Papua, Indonesia. Provinsi Papua sebelumnya bernama Irian Barat (1956 - 1973) dan Irian Jaya (1973 - 2000) yang mencakup seluruh Tanah Papua bekas Keresidenan Nugini Barat. Ibu kota Papua berada di Kota Jayapura, yang berbatasan langsung dengan negara Papua Nugini.
           </p>
           <button>More INFO..</button>
         </div>
       </div>
     </div>
+  
   );
 }
 

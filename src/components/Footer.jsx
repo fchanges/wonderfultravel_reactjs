@@ -4,22 +4,22 @@ function Footer() {
 
   return (
     <div className="container-footer">
-      <div className="footer-flex">
-        <div className="footer-items-logo">
-          <img src="images/logo Wonderful_Travel.png" alt="" />
+      <div class="footer-flex">
+        <div class="footer-items-logo">
+          <img src="images/logo_Wonderful_Travel.png" alt="" />
         </div>
-        <div className="footer-items-text">
+        <div class="footer-items-text">
           <p>Copyright &copy; 2025. All Right Reserved.</p>
-          <p>Jl. Adrianus Kaunang</p>
-          <p>Kakaskasen Dua, Kota Tomohon</p>
-          <p>Sulawesi Utara</p>
+          <p>Jl. Agung Permata</p>
+          <p>Komp-Apple, Kota Kayangan</p>
+          <p>Republik Semesta</p>
           <br />
             <div className="fa-icon"/>
-            <span><FontAwesomeIcon icon="fa-brands fa-facebook"/></span>
-            <span><FontAwesomeIcon icon="fa-brands fa-whatsapp"/></span> 
-            <span><FontAwesomeIcon icon="fa-brands fa-instagram"/></span>
-            <span><FontAwesomeIcon icon="fa-brands fa-linkedin"/></span>
-            <span><FontAwesomeIcon icon="fa-brands fa-youtube"/></span>
+              <span><FontAwesomeIcon icon="fa-brands fa-facebook"/></span>
+              <span><FontAwesomeIcon icon="fa-brands fa-whatsapp"/></span> 
+              <span><FontAwesomeIcon icon="fa-brands fa-instagram"/></span>
+              <span><FontAwesomeIcon icon="fa-brands fa-linkedin"/></span>
+              <span><FontAwesomeIcon icon="fa-brands fa-youtube"/></span>
             <div/>
         </div>
       </div>

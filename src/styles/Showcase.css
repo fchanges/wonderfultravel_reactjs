@@ -2,7 +2,6 @@
   margin-top: 50px;
   margin-bottom: 20px;
 }
-
 .showcase-damn-flex {
   width: 100%;
   display: flex;
@@ -10,38 +9,45 @@
   flex-wrap: wrap;
   padding-bottom: 20px;
   padding-top: 10px;
+  padding-right: 20px;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
-
 .showcase-damn-items {
   width: 500px;
+}
+.showcase-damn-items h2 {
+  margin-top: 20px;
+}
+.showcase-damn-items h4 {
+  margin-top: 4px;
 }
 
 .showcase-damn-items img {
   width: 100%;
   padding: 10px;
+  border-radius: 20px;
 }
-
 .showcase-damn-items p {
   margin-top: 20px;
   line-height: 28px;
 }
-
 .showcase-damn-items h3 {
   margin-top: 10px;
+  text-transform: uppercase;
 }
-
 .showcase-damn-items button {
+  display: flex;
   width: 50%;
+  justify-content: center;
   margin-top: 20px;
   padding: 10px;
   border-style: none;
-  background-color: #fe012b;
-  color: #ffa1a1;
+  background-color: #ff0073;
+  color: #ffcde3;
+  border-radius: 30px;
 }
-
 .showcase-damn-items button:hover {
-  background-color: rgb(151, 0, 0);
+  background-color: #82003b;
   cursor: pointer;
 }
