@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <div id="container-header">
       <div className="brand-logo">
-        <img src="images/Weblogo_Wonderful_Travel.png" alt="wt-logo"/>
+        <img src="images/Weblogo_Wonderful_Travel.png" alt="WonderfulTravel-logo"/>
       </div>
       <ul>
         <li>
