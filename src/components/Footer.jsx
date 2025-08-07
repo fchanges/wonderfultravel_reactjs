@@ -4,11 +4,11 @@ function Footer() {
 
   return (
     <div className="container-footer">
-      <div class="footer-flex">
-        <div class="footer-items-logo">
+      <div className="footer-flex">
+        <div className="footer-items-logo">
           <img src="images/logo_Wonderful_Travel.png" alt="" />
         </div>
-        <div class="footer-items-text">
+        <div className="footer-items-text">
           <p>Copyright &copy; 2025. All Right Reserved.</p>
           <p>Jl. Agung Permata</p>
           <p>Komp-Apple, Kota Kayangan</p>
